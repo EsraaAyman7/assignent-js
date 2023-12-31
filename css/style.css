@@ -1,0 +1,521 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+height: 800px;
+}
+#navbar .navbar-brand{
+    font-weight: 700;
+    font-size: 25px;
+}
+.test{
+    color:black;
+}
+/*////////////////////////home/////////////////////////////////*/
+#home{
+    background-image: url('../Images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#home .layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+ #home .home-text h2{
+  font-weight: 800;
+  font-size: 60px;
+}
+#home .home-animation span{
+    font-weight: 100;
+    font-size: 55px;
+    
+}
+
+#home .home-animation::after{
+    content: "|";
+    animation:  typing 7s infinite alternate;
+    font-weight: 400;
+    font-size: 55px;
+    background-color: aqua;
+}
+@keyframes typing{
+    0% {
+        content: "|";
+    }
+    2.%{
+        content: "D|";
+    }
+    4%{
+        content: "De|";
+    }
+    6%{
+        content: "Dev|";
+    }
+    8%{
+        content: "Deve|";
+    }
+    10%{
+        content: "Devel|";
+    }
+    12%{
+        content: "Develop|";
+    }
+    14%{
+        content: "Develpe|"; 
+    }
+    16%{
+        content: "Develper|";
+    }
+    18%{
+        content: "Develpe|";
+    }
+    20%{
+        content: "Develp|";
+    }
+    22%{
+        content: "Devel|";
+    }
+    24%{
+        content: "Deve|";
+    }
+    26%{
+        content: "Dev|";
+    }
+    28%{
+        content: "De|";
+    }
+    30%{
+        content: "D|";
+    }
+    32%{
+        content: "|";
+    }
+    34%{
+        content: "D|";
+    }
+    36%{
+        content: "De|";
+    }
+    38%{
+        content: "Des|";
+    }
+    40%{
+        content: "Desi|";
+    }
+    42%{
+        content: "Desig|";
+    }
+    44%{
+        content: "Design|";
+    }
+    46%{
+        content: "Designe|";
+    }
+    48%{
+        content: "Designer|";
+    }
+    50%{
+        content: "Designe|";
+    }
+    52%{
+        content: "Design|";
+    }
+    54%{
+        content: "Desig|";
+    }
+    56%{
+        content: "Desi|";
+    }
+    58%{
+        content: "Des|";
+    }
+    60%{
+        content: "De|";
+    }
+    62%{
+        content: "D|";
+    }
+    64%{
+       content: "|";
+    }
+    66%{
+        content: "L|";
+     }
+    68%{
+        content: "La|";
+    }
+    70%{
+        content: "Lar|";
+    }
+    72%{
+        content: "Larr|";
+    }
+    74%{
+        content: "Larry|";
+    }
+    76%{
+        content: "Larry D|";
+    }
+    78%{
+        content: " Larry Da|";
+    }
+    80%{
+        content: " Larry Dan|";
+    }
+    82%{
+        content: " Larry Dani|";
+    }
+    84%{
+        content: " Larry Danie|";
+    }
+    86%{
+        content: " Larry Daniel|";
+    }
+    88%{
+        content: " Larry Daniels|";
+    }
+    90%{
+        content: " Larry Daniel|";
+    }
+    91%{
+        content: " Larry Danie|";
+    }
+    92%{
+        content: " Larry Dani|";
+    }
+    93%{
+        content: " Larry Dan|";
+    }
+   94%{
+    content: " Larry Da|";
+   }
+   95%{
+    content: " Larry D|";
+   }
+   96%{
+    content: " Larry|";
+   }
+   97%{
+    content: " La|";
+   }
+   98%{
+    content: " L|";
+   }
+   99%{
+    content: " L|";
+   }
+   100%{
+    content: "|";
+   }
+}
+
+
+#home .social-icons .my-icon{
+ 
+    /* width: 40px;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.6); */
+}
+/*//////////////////////// end home/////////////////////////////////*/
+
+/*////////////////////////about/////////////////////////////////*/
+#about .container h4{
+    color: #343434;
+    font-size: 30px;
+    font-weight: 800;
+}
+#about .container p{
+    color:rgb(150, 150, 150);
+   
+}
+#about .container span{
+    color: #5f5d5d;
+    font-weight: 500;
+    
+}
+/*//////////////////////// end about/////////////////////////////////*/
+
+/*////////////////////////Services/////////////////////////////////*/
+#Services{
+    background-color: RGB(247, 247, 247);
+}
+#Services .my-services h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #343434;
+    
+}
+
+#Services .my-services{
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   -webkit-box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+   box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   transition: all 2s;
+
+}
+#Services .my-services .item .icon{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #f4f4f4;
+}
+#services .my-services p{
+    white-space: 2px;
+    font-size: 14px;
+}
+#services .item:hover .icon{
+    background-color: black;
+    color: #fff;
+}
+
+#services{
+    background-color: gray;
+}
+/*//////////////////////// endServices/////////////////////////////////*/
+
+/*////////////////////////works/////////////////////////////////*/
+#work .include{
+    position: relative;
+    overflow: hidden;
+}
+#work .include .layer-port{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+#work .include .layer-port .layer-content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    -webkit-transform: translate(0%,-50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+#work .include .layer-port .layer-content h5{
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        color: var(--main-color);
+    }
+#work .include:hover .layer-port{
+    transform: translateY(0);
+    opacity: 1;
+}
+#work .include .layer-port .icons-work .icon-work{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+    font-size: 14px;
+}
+#work .include .layer-port .icons-work .icon-work a{
+    color: #eee;
+    text-decoration: none;
+}
+#work .include .layer-port .icons-work .icon-work:hover a{
+    color: #111;
+}
+#work .include .layer-port .icons-work .icon-work:hover{
+    background: #eee;
+    color: #111;
+    border: 1px solid #111;
+}
+.nav-pills .nav-link{
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+   position: relative;
+}
+.nav-pills .nav-link.active, .nav-pills .nav-link {
+    color: RGB(34, 34, 34) !important;
+    background-color: white !important;
+}
+.nav-pills .nav-link::after{
+transition: all 0.6s;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 60%;
+    background-color: #111111;
+    top: 33px;
+    left: -5px;
+    opacity: 0;
+}
+.nav-pills .nav-link.active::after{
+    left: 15px;
+    opacity: 1;
+}
+#work h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--main-color);
+    z-index: 3;
+   width: max-content;
+}
+#work .section-title h2::after{
+content: "";
+width: 100%;
+height: 30px;
+background-image: url(../images/dots.png);
+position: absolute;
+bottom: -8px;
+left: 0;
+z-index: -1;
+}
+/*////////////////////////end works/////////////////////////////////*/
+
+/*////////////////////////Clients/////////////////////////////////*/
+.carousel-indicators{
+    top:100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50%;
+     background-color: tertiary !important;
+
+}
+#client .carousel-indicators button{
+    padding: 5px;
+    width: 5px;
+    background-color: var(--main-color);
+    height: 5px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+#client .carousel-indicators button{
+    padding: 5px;
+    width: 5px;
+    background-color: var(--main-color);
+    height: 5px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+/*////////////////////////end Clients/////////////////////////////////*/
+
+/*////////////////////////team/////////////////////////////////*/
+#team{
+    background-color: #F7F7F7;
+}
+#team .section-title h3 {
+    font-weight: 900;
+    font-size: 40px;
+    /* margin-bottom: 90px; */
+    color: var(--main-color);
+    z-index: 3;
+    width: max-content;
+}
+#team .section-title h3::after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    z-index: -1;
+}
+#team .img-text {
+    padding: 25px;
+    color: #fff;
+    background-color: #5b5b5b;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#team .list-inline .icon{
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    border: 1px solid #000;
+    color: #fff;
+}
+#team .list-inline .icon:hover{
+    background-color: #fff;
+    color: #000;
+}
+#team .list-inline .icon:hover i{
+    color: #000;
+}
+#team .social .icon i{
+    color: #fff;
+}
+#team .employee .social {
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    text-align: center;
+    inset: 5px;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    padding: 5px; /* Added padding around the social element */
+    box-sizing: border-box; /* Include padding in total width and height */
+}
+#team .employee {
+    position: relative;
+    overflow: hidden;
+}
+#team .employee:hover .social {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+
+#team .employee .img-team img {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+#team .employee:hover .img-team img {
+    transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+#team .data:hover .social{
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+/*//////////////////////// end team/////////////////////////////////*/
